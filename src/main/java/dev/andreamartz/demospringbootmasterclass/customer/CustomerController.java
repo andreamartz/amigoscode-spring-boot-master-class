@@ -12,7 +12,7 @@ import java.util.List;
 public class CustomerController {
     private final CustomerService customerService;
 
-    @Autowired
+    @Autowired  // means we want Spring to auto-inject the customerService
     CustomerController(CustomerService customerService) {
         this.customerService = customerService;
     }
