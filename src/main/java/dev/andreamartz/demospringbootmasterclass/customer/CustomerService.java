@@ -12,7 +12,7 @@ public class CustomerService {
     private final CustomerRepo customerRepo;
 
     @Autowired
-    public CustomerService( CustomerRepo customerRepo) {
+    public CustomerService(CustomerRepo customerRepo) {
         this.customerRepo = customerRepo;
     }
 
